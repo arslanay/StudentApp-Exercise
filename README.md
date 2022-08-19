@@ -1,19 +1,28 @@
+------------------------
 Version v.00:
  * Skeleton code.
-
-Running the application
+  
+-------------------------
+## Install the dependencies:
+-------------------------
+```python
+pip install -r requirements.txt
+```
+------------------------
+## Running the application
 -----------------------
-
 To run this example:
 - Start the application with the following command:
 
-Windows:    set FLASK_DEBUG=1 && python -m flask run
-Mac/Linux:   export FLASK_DEBUG=1 && python -m flask run
+Windows:    
+```
+set FLASK_DEBUG=1 && python -m flask run
+```
+Mac/Linux:   
+``` 
+export FLASK_DEBUG=1 && python -m flask run
+```
 
-Dependencies:
-pip install flask
-pip install flask-sqlalchemy
-pip install flask-wtf
 
 -----
 v.00 
